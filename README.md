@@ -1,4 +1,4 @@
-# Automated Youtube videos scrapper
+# Automated Youtube videos scraper
 
 ## required libraries
 
