@@ -8,7 +8,7 @@ from pytube import YouTube
 urls=[]
 hello=[]
 
-search_keyword="fallingperson"
+search_keyword="add search keywords(no space)"
 html = urllib.request.urlopen("https://www.youtube.com/results?search_query=" + search_keyword)
 video_ids = re.findall(r"watch\?v=(\S{11})", html.read().decode())
 
@@ -28,7 +28,7 @@ print("\n total number of videos available for download = "+ str(len(urls)))
 b=int(input("\n enter the starting range for download = "))
 c=int(input("\n enter the end range for download = "))
 
-path_output='/Users/chaitanyakotcherlakota/Downloads'
+path_output='add output path here '
 
 ydl_opts = {}
 os.chdir(path_output)
