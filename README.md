@@ -1,6 +1,6 @@
 # Automated Youtube videos scrapper
 
-## installtions 
+## required libraries
 
 * Pip3 install youtube_dl
 * pip3 install pytube
